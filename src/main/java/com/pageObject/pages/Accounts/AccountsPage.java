@@ -7,7 +7,7 @@ import com.pageObject.base.Page;
 
 public class AccountsPage extends Page {
 
-	
+	//Accountd page
 	public void verfiyButton() {
 		driver.findElement(By.cssSelector("button#importButton")).isDisplayed();
 		driver.findElement(By.cssSelector("lyte-drop-button#combo")).isDisplayed();
