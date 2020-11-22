@@ -6,6 +6,7 @@ import com.pageObject.pages.Accounts.AccountsPage;
 
 public class TopMenu {
 	
+	//Menu page
 	public static WebDriver driver;
 	public TopMenu(WebDriver driver) {
 		
