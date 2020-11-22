@@ -13,13 +13,7 @@ public class CRMHomePage extends Page {
 		getText("CRMLayout1_CSS");
 		getText("CRMLayout2_CSS");
 		getText("CRMLayout3_CSS");
-	}
-	
-	public AccountsPage gotoAccounts() {
-		click("Accounts_CSS");
-		Assert.fail("Accounts not found");
-		
-		return new AccountsPage();
+		Assert.fail("Not found");
 	}
 	
 }

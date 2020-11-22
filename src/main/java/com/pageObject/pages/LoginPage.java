@@ -20,7 +20,6 @@ public class LoginPage extends Page {
 		type("Pass_CSS",password);
 		click("Next_CSS");
 		Assert.fail("Failed due to inavlid credentials");
-		log.debug("Failed due to inavlid credentials");
 		
 		return new ZohoPage();
 	}
