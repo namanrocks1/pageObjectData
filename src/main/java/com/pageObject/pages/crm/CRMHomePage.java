@@ -1,6 +1,7 @@
 package com.pageObject.pages.crm;
 
 import org.openqa.selenium.By;
+import org.testng.Assert;
 
 import com.pageObject.base.Page;
 import com.pageObject.pages.Accounts.AccountsPage;
@@ -16,6 +17,7 @@ public class CRMHomePage extends Page {
 	
 	public AccountsPage gotoAccounts() {
 		click("Accounts_CSS");
+		Assert.fail("Accounts not found");
 		
 		return new AccountsPage();
 	}
