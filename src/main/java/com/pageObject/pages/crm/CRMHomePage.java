@@ -7,7 +7,7 @@ import com.pageObject.pages.Accounts.AccountsPage;
 
 public class CRMHomePage extends Page {
 
-	
+	//Home page of CRM
 	public void verifyTasks() {
 		getText("CRMLayout1_CSS");
 		getText("CRMLayout2_CSS");
